@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StartController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <children>
+      <Label text="Меню">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="studentsView" onAction="#openStudentsView" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Студенты" />
+      <Button fx:id="entrantView" onAction="#openEntratView" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Абитуриенты" />
+      <Button fx:id="representView"  onAction="#openRepresentView" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Представитель" />
+      <Button fx:id="comissionView" onAction="#openComissionView" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Приемная комиссия" />
+      <Button fx:id="specializeView" onAction="#openSpecializeView" mnemonicParsing="false" prefHeight="30.0" prefWidth="200.0" text="Специальность" />
+   </children>
+</VBox>
