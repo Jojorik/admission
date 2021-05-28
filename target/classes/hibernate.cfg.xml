@@ -5,6 +5,7 @@
 
     <session-factory>
         <!-- Configure MySQL -->
+        <property name="hibernate.jdbc.time_zone">UTC</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/admission</property>
         <property name="hibernate.connection.username">root</property>
